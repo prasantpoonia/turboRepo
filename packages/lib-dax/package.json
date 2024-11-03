@@ -5,7 +5,7 @@
     "author": "prasant",
     "license": "MIT",
     "repository": {
-      "url": "https://github.com/prasantpoonia/monoRepoTest/tree/master/packages/lib-dax"
+      "url": "https://github.com/prasantpoonia/turboRepo/tree/master/packages/lib-dax"
     },
     "scripts": {
       "build": "node index.js",
