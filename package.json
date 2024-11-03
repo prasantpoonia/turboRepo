@@ -12,7 +12,8 @@
     "scripts": {
         "build": "turbo run build",
         "lint": "turbo run lint",
-        "test": "turbo run test"
+        "test": "turbo run test",
+        "publish-packages": "turbo run build lint test && changeset version && changeset publish"
     },
     "type": "module",
     "devDependencies": {
