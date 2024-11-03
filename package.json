@@ -18,6 +18,7 @@
     "type": "module",
     "devDependencies": {
         "@changesets/cli": "^2.27.9",
+        "changesets": "^1.0.2",
         "turbo": "^2.2.3"
     },
     "packageManager": "npm@10.8.2"
