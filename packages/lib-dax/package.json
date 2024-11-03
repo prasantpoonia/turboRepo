@@ -1,0 +1,22 @@
+{
+    "name": "@pooniaprasant/lib-dax",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "prasant",
+    "license": "MIT",
+    "repository": {
+      "url": "https://github.com/prasantpoonia/monoRepoTest/tree/master/packages/lib-dax"
+    },
+    "scripts": {
+      "build": "node index.js",
+      "dev": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "@pooniaprasant/client-dax": "*"
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "type": "module"
+  }

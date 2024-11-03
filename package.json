@@ -1,0 +1,23 @@
+{
+    "name": "prasant-personal",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/prasantpoonia/turboRepo.git",
+    "author": "prasant",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "turbo run build",
+        "lint": "turbo run lint",
+        "test": "turbo run test"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@changesets/cli": "^2.27.9",
+        "turbo": "^2.2.3"
+    },
+    "packageManager": "npm@10.8.2"
+}
